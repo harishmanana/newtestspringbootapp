@@ -4,9 +4,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class TestController {
-	@GetMapping("/")
+public class NewTestController {
+	@GetMapping("/users")
 	public String home() {
-		return "This is home with few updates";
+		return "This is home";
 	}
 }
